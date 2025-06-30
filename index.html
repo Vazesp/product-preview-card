@@ -55,7 +55,10 @@
   .precio-ahora{
     color : hsl(158, 36%, 37%);
     font-size : 17px;
-
+  }
+  .precio{
+    display : flex;
+    flex-direction : row;
   }
   </style>
 </head>
@@ -77,11 +80,13 @@
       
       A floral, solar and voluptuous interpretation composed by Olivier Polge, 
       Perfumer-Creator for the House of CHANEL.
-      <div class="precio-ahora">
-        $149.99
-      </div>
-      <div class="precio-antes">
-        $169.99
+      <div class="precio"> 
+        <div class="precio-ahora">
+          $149.99
+        </div>
+        <div class="precio-antes">
+          $169.99
+        </div>
       </div>
       <br></br>
       <button class="add-to-cart">
